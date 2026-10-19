@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Downloader</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="container">
+        <h1>YouTube Downloader</h1>
+        <p>Baixe seus vídeos e áudios favoritos.</p>
+
+        <form id="downloadForm">
+            <input
+                type="url"
+                id="videoUrl"
+                placeholder="Cole o link do vídeo aqui"
+                required
+            >
+
+            <select id="format">
+                <option value="mp3">MP3 - Áudio</option>
+                <option value="mp4">MP4 - 1080p</option>
+            </select>
+
+            <button type="submit">Baixar</button>
+        </form>
+
+        <p id="status"></p>
+    </main>
+</body>
+</html>
