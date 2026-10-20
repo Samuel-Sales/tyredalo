@@ -1,1 +1,24 @@
-node_modules
+
+# Dependências
+node_modules/
+
+# Arquivos baixados
+downloads/
+*.mp3
+*.mp4
+
+# Variáveis de ambiente
+.env
+.env.*
+
+# Logs
+*.log
+npm-debug.log*
+
+# Arquivos temporários
+temp/
+tmp/
+
+# Arquivos do Windows
+Thumbs.db
+Desktop.ini
